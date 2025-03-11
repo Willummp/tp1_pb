@@ -1,0 +1,45 @@
+Objetivo: Este projeto propõe uma experiência prática em Inteligência Artificial (IA) e Machine Learning (ML), permitindo a aplicação de conceitos e técnicas adquiridos em disciplinas regulares num contexto de dados reais.
+
+Base de dados: Será indicada pelo professor do Projeto de Bloco.
+
+Descrição das Atividades:
+
+Carregamento de Dados: Identifique as características (features) e o alvo (target) nos conjuntos de dados, compreendendo sua estrutura e importância.
+Divisão de Dados: Separe os dados em conjuntos de treino e validação, essenciais para o desenvolvimento e avaliação de modelos de ML. Você irá dividir 80% dos dados para treino e o restante para validação.
+Transformação de Dados: Utilize transformadores do Scikit-Learn para ajustar e padronizar as variáveis dos dados.
+Modelagem de K-Nearest Neighbors (KNN): Implemente e ajuste o algoritmo KNN, compreendendo suas nuances e aplicabilidade.
+Avaliação de Modelos: Avalie a qualidade do modelo desenvolvido usando acurácia
+Análise de Parâmetros: Explore diferentes valores para o parâmetro K do KNN e analise seu impacto nos resultados obtidos (através da acurácia do modelo para os dados de validação).
+
+//
+
+O dataset utilizado é o Titanic, que contém informações sobre os passageiros do Titanic, incluindo se sobreviveram ou não.
+O objetivo é prever se um passageiro sobreviveu ou não ao naufrágio do Titanic. (https://www.kaggle.com/competitions/titanic/overview)
+
+O dataset contém as seguintes colunas:
+- PassengerId: Número de identificação do passageiro
+- Survived: Informa se o passageiro sobreviveu ao desastre
+- Pclass: Classe do bilhete
+- Name: Nome
+- Sex: Sexo
+- Age: Idade
+- SibSp: Quantidade de cônjuges e irmãos a bordo
+- Parch: Quantidade de pais e filhos a bordo
+- Ticket: Número da passagem
+- Fare: Preço da Passagem
+- Cabin: Número da cabine do passageiro
+- Embarked: Porto no qual o passageiro embarcou (C = Cherbourg, Q = Queenstown, S = Southampton)
+
+O dataset está dividido em dois arquivos:
+- train.csv: contém os dados que serão utilizados para treinar o modelo
+- test.csv: contém os dados para teste do modelo
+
+As Colunas que serão utilizadas como features são:
+- Pclass
+- Sex
+- Age
+
+A coluna que será utilizada como target é:
+- Survived
+
+O objetivo é prever se um passageiro sobreviveu ou não com base nas features selecionadas.
